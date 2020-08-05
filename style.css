@@ -1,0 +1,64 @@
+body{
+    background: #19171D;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+}
+
+.principal-channel{
+    float: left;
+    width: 30%;
+    border: 2px solid black;
+}
+
+h2{
+    color: #757477;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    color: #757477;
+}
+
+.principal-chat{
+    width: 70%;
+    border: 2px solid black;
+}
+
+.container-message{
+    clear: both;
+    display: table;
+    color:  #757477;
+    margin: 20px 10px;
+}
+
+img{
+    float: left;
+    border-radius: 50%;
+}
+
+.author{
+    float: left;
+    font-weight: bold;
+}
+
+p{
+    float: left;
+}
+
+.time{
+    color:blue;
+}
+
+.instant-message{
+    border: 2px solid #747779;
+    border-radius: 10px;
+    background-color: #222529;
+}
+
+input{
+    margin: 5px;
+}

@@ -1,33 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>SMAKIT</title>
 </head>
 <body>
-    <section class='principal-channel'>
-        <nav class='channels'>
-            <h2>Channels</h2>
-            <ul>
-                <li>#Channel 1</li>
-                <li>#Channel 2</li>
-                <li>#Channel 3</li>
-            </ul>
-        </nav>
-    </section>
-    <section class='principal-chat'>
-        <div class='content'>
-            <div class='chat'>
-                <div class='container-message'>
-                    <img src="" alt="">
-                    <span class='time'></span>
+    <div class='container'>
+        <section class='principal-channel'>
+            <nav class='channels'>
+                <h2>Channels</h2>
+                <ul>
+                    <li>#Channel 1</li>
+                    <li>#Channel 2</li>
+                    <li>#Channel 3</li>
+                </ul>
+            </nav>
+        </section>
+        <section class='principal-chat'>
+            <div class='content-chat'>
+                <div class='chat'>
+                    <div class='container-message'>
+                        <img src="http://lorempixel.com/50/50/people/" alt="">
+                        <span class='author'>Jaime Muñoz</span>
+                        <p>Hola a Todos</p>
+                        <span class='time'>11:05</span>
+                    </div>
+                    <div class='container-message'>
+                        <img src="http://lorempixel.com/50/50/people/" alt="">
+                        <span class='author'>Elkin Lopez</span>
+                        <p>Hola a Todos 2</p>
+                        <span class='time'>11:05</span>
+                    </div>
+                    <div class='container-message'>
+                        <img src="http://lorempixel.com/50/50/people/" alt="">
+                        <span class='author'>Josua Perez</span>
+                        <p>Hola a Todos 3</p>
+                        <span class='time'>11:05</span>
+                    </div>
                 </div>
+                <form class='instant-message'>
+                    <input value='Enviar Mensaje Instantaneo'></input>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
-            <div class='instant-message'>
-                <input value='Enviar Mensaje Instantaneo'></input>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </body>
 </html>
