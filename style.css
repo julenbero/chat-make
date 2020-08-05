@@ -1,64 +1,64 @@
-body{
+body {
     background: #19171D;
 }
 
-.container{
+.container {
     border: 2px solid black;
     display: flex;
 }
 
-.principal-channel{
+.principal-channel {
     float: left;
     width: 30%;
     border: 2px solid black;
 }
 
-h2{
+h2 {
     color: #757477;
     text-align: center;
 }
 
-ul{
+ul {
     list-style-type: none;
     color: #757477;
 }
 
-.principal-chat{
+.principal-chat {
     width: 70%;
     border: 2px solid black;
 }
 
-.container-message{
+.container-message {
     clear: both;
     display: table;
     color:  #757477;
     margin: 20px 10px;
 }
 
-img{
+img {
     float: left;
     border-radius: 50%;
 }
 
-.author{
+.author {
     float: left;
     font-weight: bold;
 }
 
-p{
+p {
     float: left;
 }
 
-.time{
+.time {
     color:blue;
 }
 
-.instant-message{
+.instant-message {
     border: 2px solid #747779;
     border-radius: 10px;
     background-color: #222529;
 }
 
-input{
+input {
     margin: 5px;
 }
