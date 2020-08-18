@@ -1,64 +1,114 @@
 body {
-    background: #19171D;
-}
-
-.container {
-    border: 2px solid black;
-    display: flex;
-}
-
-.principal-channel {
+    margin-left: 0;
+  }
+  
+  .container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #130f40;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .channels {
+    position: relative;
     float: left;
-    width: 30%;
-    border: 2px solid black;
-}
-
-h2 {
-    color: #757477;
+    height: 100vh;
+    width: 19vw;
+  }
+  
+  h2{
+    color: lightgray;
+    margin-left: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
     text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    color: #757477;
-}
-
-.principal-chat {
-    width: 70%;
-    border: 2px solid black;
-}
-
-.container-message {
-    clear: both;
-    display: table;
-    color:  #757477;
-    margin: 20px 10px;
-}
-
-img {
+    padding-left: 0;
     float: left;
-    border-radius: 50%;
-}
-
-.author {
-    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  
+  nav ul li {
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .seleccion {
+    color: white;
     font-weight: bold;
-}
-
-p {
+    background: #0984e3;
+  }
+  
+  nav ul li:hover {
+    color: white;
+    background: #30336b;
+  }
+  
+  .principal-chat {
+    position: relative;
     float: left;
-}
+    height: 100vh;
+    width: 80vw;
+    border-left: 1px solid gray;
+  }
+  
+  .chat {
+    position: absolute;
+    float: left;
+    width: 97.5%;
+    height: 92%;
+    padding: 10px;
+    margin: 0px 10px;
+    bottom: 5vh;
+  }
+  
+  .container-message {
+    color: lightgray;
+  }
+  
+  img {
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .author {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .time {
+    font-size: 12px;
+  }
 
-.time {
-    color:blue;
-}
-
-.instant-message {
-    border: 2px solid #747779;
-    border-radius: 10px;
-    background-color: #222529;
-}
-
-input {
-    margin: 5px;
-}
+  p {
+    margin-top: 7px;
+  }
+  
+  .instant-message {
+    position: absolute;
+    float: left;
+    width: 98.5%;
+    background: #30336b;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    bottom: 1vh;
+  }
+  
+  input {
+    width: 97%;
+    background: #30336b;
+    color: darkgray;
+    border-style: none;
+  }
+  
+  button {
+    background: #30336b;
+    color: darkgray;
+    border-style: none;
+  }
