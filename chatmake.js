@@ -30,24 +30,24 @@ const dummy = [{
 const channels = [
     {
         messages: [],
-        name: 'Channel 1'
+        name: '#Channel 1'
     },
     {
         messages: [],
-        name: 'Channel 2'
+        name: '#Channel 2'
     },
     {
         messages: [],
-        name: 'Channel 3'
+        name: '#Channel 3'
     },
     {
         messages: [],
-        name: 'Channel 4'
+        name: '#Channel 4'
     }
 
 ];
 
-let channel = channels.find((channel) => '#' + channel.name === $numch[currentchannel].textContent);
+let channel = channels.find((channel) => channel.name === $numch[currentchannel].textContent);
 
 $numch.forEach((element, index) => {
     element.addEventListener('click', () => {
