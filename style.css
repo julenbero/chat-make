@@ -30,7 +30,7 @@ nav ul li {
   color: white;
 }
 
-.seleccion {
+.selection {
   color: white;
   font-weight: bold;
   background: #0984e3;
@@ -41,7 +41,7 @@ nav ul li:hover {
   background: #30336b;
 }
 
-.principal-chat {
+.main-chat {
   width: 75vw;
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@ button {
     overflow-y: auto;
   }
 
-  .principal-chat {
+  .main-chat {
     height: 80vh;
     width: 100vw;
     border-top: 1px solid lightgray;
